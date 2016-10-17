@@ -5,7 +5,7 @@ public class DictionaryOrder {
 		Scanner keyboard = new Scanner(System.in);
 		String name;
 		System.out.print( "Make up the name of a programming language! " );
-		name = keyboard.nextLine();
+		name = keyboard.nextLine(); // nextLine() accepts multiple word inputs until ENTER is pressed.
 
 	if ( name.compareTo("c++") < 0 )
 		System.out.println( name + " comes BEFORE c++" );
