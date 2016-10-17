@@ -26,46 +26,46 @@ public class DictionaryOrder {
 	be set to a positive number (a number greater than 0).
 	*/
 
-	if ( name.compareTo("go") < 0 )
+	if ( name.toLowerCase().compareTo("go") < 0 )
 		System.out.println( name + " comes BEFORE go" );
-	if ( name.compareTo("go") == 0 )
+	if ( name.toLowerCase().compareTo("go") == 0 )
 		System.out.println( "go isn't a made-up language!" );
-	if ( name.compareTo("go") > 0 )
+	if ( name.toLowerCase().compareTo("go") > 0 )
 		System.out.println( name + " comes AFTER go" );
 
-	if ( name.compareTo("java") < 0 )
+	if ( name.toLowerCase().compareTo("java") < 0 )
 		System.out.println( name + " comes BEFORE java" );
-	if ( name.compareTo("java") == 0 )
+	if ( name.toLowerCase().compareTo("java") == 0 )
 		System.out.println( "java isn't a made-up language!" );
-	if ( name.compareTo("java") > 0 )
+	if ( name.toLowerCase().compareTo("java") > 0 )
 		System.out.println( name + " comes AFTER java" );
 
-	if ( name.compareTo("lisp") < 0 )
+	if ( name.toLowerCase().compareTo("lisp") < 0 )
 		System.out.println( name + " comes BEFORE lisp" );
-	if ( name.compareTo("lisp") == 0 )
+	if ( name.toLowerCase().compareTo("lisp") == 0 )
 		System.out.println( "lisp isn't a made-up language!" );
-	if ( name.compareTo("lisp") > 0 )
+	if ( name.toLowerCase().compareTo("lisp") > 0 )
 		System.out.println( name + " comes AFTER lisp" );
 
-	if ( name.compareTo("python") < 0 )
+	if ( name.toLowerCase().compareTo("python") < 0 )
 		System.out.println( name + " comes BEFORE python" );
-	if ( name.compareTo("python") == 0 )
+	if ( name.toLowerCase().compareTo("python") == 0 )
 		System.out.println( "python isn't a made-up language!" );
-	if ( name.compareTo("python") > 0 )
+	if ( name.toLowerCase().compareTo("python") > 0 )
 		System.out.println( name + " comes AFTER python" );
 
-	if ( name.compareTo("ruby") < 0 )
+	if ( name.toLowerCase().compareTo("ruby") < 0 )
 		System.out.println( name + " comes BEFORE ruby" );
-	if ( name.compareTo("ruby") == 0 )
+	if ( name.toLowerCase().compareTo("ruby") == 0 )
 		System.out.println( "ruby isn't a made-up language!" );
-	if ( name.compareTo("ruby") > 0 )
+	if ( name.toLowerCase().compareTo("ruby") > 0 )
 		System.out.println( name + " comes AFTER ruby" );
 
-	if ( name.compareTo("visualbasic") < 0 )
+	if ( name.toLowerCase().compareTo("visualbasic") < 0 )
 		System.out.println( name + " comes BEFORE visualbasic" );
-	if ( name.compareTo("visualbasic") == 0 )
+	if ( name.toLowerCase().compareTo("visualbasic") == 0 )
 		System.out.println( "visualbasic isn't a made-up language!" );
-	if ( name.compareTo("visualbasic") > 0 )
+	if ( name.toLowerCase().compareTo("visualbasic") > 0 )
 		System.out.println( name + " comes AFTER visualbasic" );
 	}
 }
