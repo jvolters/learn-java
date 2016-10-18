@@ -1,3 +1,4 @@
+// if else chains
 import java.util.Scanner;
 
 public class BMICategories{

@@ -1,3 +1,6 @@
+// using loop for error checking
+// while loop
+// error checking
 import java.util.Scanner;
 
 public class SafeSquareRoot {

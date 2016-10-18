@@ -1,3 +1,4 @@
+// Escape sequences and comments
 public class EscapeSequencesCommand {
 	public static void main(String[] args) {
 		//This exercise demonstrates escape sequences & comments (like this one)!

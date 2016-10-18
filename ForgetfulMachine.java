@@ -1,3 +1,6 @@
+// Getting input from keyboard
+// java.util.Scanner
+// 
 import java.util.Scanner;
 /*
 So let us talk about the code. On line 1 we have an import statement. The library we import is the

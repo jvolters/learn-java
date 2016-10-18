@@ -1,3 +1,5 @@
+// Random numbers 
+// Math.random()
 public class RandomNumbers {
 	public static void main( String[] args ) {
 		int a, b, c, d;

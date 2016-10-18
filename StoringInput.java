@@ -1,3 +1,5 @@
+// RudeQuestions
+// Storing input
 import java.util.Scanner;
 
 public class StoringInput {

@@ -1,3 +1,5 @@
+// System.out.println
+// System.out.print
 public class PrintingChoices {
 	public static void main( String[] args) {
 		System.out.println("Alpha");

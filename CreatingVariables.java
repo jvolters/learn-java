@@ -1,3 +1,5 @@
+// Variables
+// Saving information in Variables
 public class CreatingVariables {
 	public static void main(String[] args) {
 		int x, y, age, year; // year added as drill

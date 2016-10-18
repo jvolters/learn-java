@@ -1,3 +1,5 @@
+// Comparing Strings
+// word.equals()
 import java.util.Scanner;
 
 public class WeaselOrNot {

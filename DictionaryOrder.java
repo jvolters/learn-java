@@ -1,3 +1,6 @@
+// comparing strings for alpha ordering
+// compareTo()
+// toLowerCase()
 import java.util.Scanner;
 
 public class DictionaryOrder {

@@ -1,3 +1,4 @@
+// while loop
 import java.util.Scanner;
 
 public class EnterPIN {

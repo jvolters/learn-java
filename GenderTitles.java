@@ -1,3 +1,4 @@
+// nested if statements
 import java.util.Scanner;
 
 public class GenderTitles {

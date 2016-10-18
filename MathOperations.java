@@ -1,3 +1,5 @@
+// Math operations
+// Math operators
 public class MathOperations {
 	public static void main( String[] args ) {
 		int a, b, c, d, e, f, g;
