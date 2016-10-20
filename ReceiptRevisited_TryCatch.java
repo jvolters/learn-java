@@ -23,7 +23,6 @@ public class ReceiptRevisited_TryCatch {
 			fileout = null;
 			System.exit(1);
 		}
-
 		fileout.println( "+------------------------+" );
 		fileout.println( "|                        |" );
 		fileout.println( "|      CORNER STORE      |" );
