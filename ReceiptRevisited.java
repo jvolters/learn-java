@@ -5,6 +5,11 @@ import java.io.PrintWriter;
 
 public class ReceiptRevisited {
 	public static void main( String[] args ) throws Exception {
+		// declare a variable of type PrintWriter and name it fileout.
+		// give fileout a value; the reference to a new PrintWriter object.
+		// PrintWriter expects an argument, in this case, "receipt.txt", a string.
+		// "receipt.txt" is the filename passed in as the argument.
+		// By the way, System.out is a PrintWriter.
 		PrintWriter fileout = new PrintWriter("receipt.txt");
 
 		fileout.println( "+------------------------+" );
