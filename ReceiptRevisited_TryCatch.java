@@ -1,20 +1,25 @@
 // Exercise 40: Programs that Write to Files
 // PrintWriter
-// throws Exception
 // Try Catch
+/*
+	To make the program throw an execption and see how the catch block functions, 
+	simpley set the read-only property on receipt.txt.
+*/
 import java.io.PrintWriter;
 import java.io.IOException;
 
 public class ReceiptRevisited_TryCatch {
-	public static void main( String[] args ) throws Exception {
+	public static void main( String[] args ) {
 		PrintWriter fileout;
-
+		// try catch means we can dump the throws Exception from main declaration.
 		try {
 			fileout = new PrintWriter("receipt.txt");
 		}
 		catch ( IOException err ) {
-			System.out.println("Sorry, I can't open 'receipt.txt' for writing.");
-			System.out.println("Maybe the file exists and is read-only?");
+			//System.out.println("Sorry, I can't open 'receipt.txt' for writing.");
+			//System.out.println("Maybe the file exists and is read-only?");
+			// Added the line below to include the actual error message thrown.
+			System.err.println("Caught IOException: " + err.getMessage());
 			fileout = null;
 			System.exit(1);
 		}
