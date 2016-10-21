@@ -1,5 +1,11 @@
 import java.util.Scanner;
-
+/*
+Another way to check for a match.  Rather than a bool flag, the for(each)
+could include a counter (declared outside of the loop, initialized to 0, 
+but incremented in it).
+IF, after exiting the loop the counter is still 0, then you know there was 
+no match.
+*/
 public class ItemNotFound {
 	public static void main( String[] args ) {
 		Scanner keyboard = new Scanner(System.in);
