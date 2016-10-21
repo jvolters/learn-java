@@ -19,8 +19,10 @@ public class ArrayLinearSearch {
 		System.out.print("Which order to find? ");
 		toFind = keyboard.nextInt();
 
+		boolean found = false; // changed, added bool found
 		for ( int num : orderNumbers ) {
 			if ( num == toFind ) {
+				found = true; // changed, if matched then found is true
 				System.out.println( num + " found.");
 		/* in both for loops the int variable num is declared.
 		   the reason num cannot be declared along with toFind
@@ -31,6 +33,10 @@ public class ArrayLinearSearch {
 		   loop that uses it.
 		*/
 			}
+		}
+		// added below if. if exiting the loop found is still false there was no match.
+		if (found == false){
+			System.out.println("Sorry, "+toFind+" is not in the system.");
 		}
 	}
 }
