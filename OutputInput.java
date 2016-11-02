@@ -11,21 +11,25 @@ asks the user what file to read.  Allow the user to enter the file (path/filenam
 
 Then read that file.
 */
-import java.io.File;
-import java.util.Scanner;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.stream.Stream;
 
 public class OutputInput {
-	public static void main(String[] args) throws Exception {
-		String file = "LOTR.txt";
+	public static void main(String[] args) {
 		System.out.println();
-		Scanner readFile = new Scanner(new File(file));
-		// currently this loop writes each word to screen, not line.
-		// need to figure logic for line.
-		while (readFile.hasNext()){
-			String line = readFile.next();
-			System.out.println(line);
+		String fileName = "C:\\Users\\npdjvolters\\IdeaProjects\\learn-java\\LOTR.txt";
+		
+		// read file into stream, try-with-resources
+		try (Stream<String> stream = Files.lines(Paths.get(fileName))){
+			
+			//stream.forEach(System.out.println); bad
+			stream.forEach(System.out::println);
+						
+		} catch (IOException e){
+			e.printStackTrace();
 		}
-		readFile.close();
 		System.out.println();
 	}
 }
