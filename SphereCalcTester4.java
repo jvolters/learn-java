@@ -1,11 +1,11 @@
-public class SphereCalcTester{
+public class SphereCalcTester4{
 	public static void main(String[] args) {
 		
 		//SphereCalc c = new SphereCalc();
 		//SphereCalc2 c = new SphereCalc2();
 		SphereCalc4 c = new SphereCalc4( 5 );
 		
-		c.setRadius(5);
+		//c.setRadius(5);
 		//c.radius = 0.1;
 		
 		if ( isNear(c.getSurfaceArea(), 314.159265359) )
